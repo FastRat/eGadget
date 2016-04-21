@@ -1,9 +1,5 @@
-@font-face {
-    font-family: 'Alegreya';
-    src: url('http://fonts.googleapis.com/css?family=Alegreya&subset=latin,latin-ext');
-}
 #warpper{
-	font-family: 'Alegreya', sans-serif;
+	font-family: 'Margarine', sans-serif;
 	min-height: 100vh;
 	width: 100vw;
 	margin: 0;
@@ -13,4 +9,21 @@
 #login_row{
 	height: 5vh;
 	background-color: #6E4F74;
+	font-size: 3vh;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.middle{
+	display:table-cell;
+	vertical-align:middle;
+	height: 5vh;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.btn_m{
+	height: 4vh;
 }
