@@ -1,7 +1,7 @@
 var app = angular.module('APP', []);
 
 app.controller('MainHead', function( $scope ){
-    $scope.title = 'eGadget';
+    $scope.title = 'eGadżet';
 });
 
 app.controller('Warpper', function( $scope ) {
@@ -24,11 +24,6 @@ app.controller('ArticleLoader', function( $scope, $http ) {
         $scope.error = "Nie można pobrać informacji";
     };
             
-    var onRequestCompleted = function (response) {
-        $scope.articles = response.data;
-
-        $http.get(location.href + "data/articles.json")
+    $http.get(location.href + "data/articles.json")
           .then(onRepos,onError);
-
-    };
 });
