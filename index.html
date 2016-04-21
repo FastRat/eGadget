@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>eGadżet</title>
+<html ng-app="APP">
+    <head ng-controller="MainHead">
+        <title>{{title}}</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
@@ -11,18 +11,24 @@
         <script src="js/bootstrap.js" type="text/javascript"></script>
         <script src="js/npm.js" type="text/javascript"></script>
         <script src="js/angular.min.js" type="text/javascript"></script>
+        <script src="js/loader.js" type="text/javascript"></script>
     </head>
-    <body>
-    	<div id="warpper">
-    		<div class="container-fluid">
-    			<div id="login_row" class="row">
-    				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        hejlfhednsilk
+    <body >
+      
+        <div id="warpper">
+            <div class="container-fluid">
+                    <div id="login_row" class="row">
+                        <div ng-include="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              
+                </div>
                     </div>
-    			</div>
-    		</div>
+            </div>
     	</div>
-        
+        <div class="content-midlle">
+            <div>
+                fdsfdsg
+            </div>
+        </div>
     </body>
 </html>
 
