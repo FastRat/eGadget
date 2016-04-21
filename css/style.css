@@ -1,5 +1,5 @@
 #warpper{
-	font-family: 'Margarine', sans-serif;
+	font-family: 'McLaren', sans-serif;
 	min-height: 100vh;
 	width: 100vw;
 	margin: 0;
@@ -8,10 +8,10 @@
 }
 #login_row{
 	height: 5vh;
-	background-color: #6E4F74;
+	background-color: #FFF;
 	font-size: 3vh;
-	padding-right: 5%;
-	padding-left: 5%;
+	margin-bottom: 5px;
+
 }
 .middle{
 	display:table-cell;
@@ -25,9 +25,25 @@
 	float: right;
 }
 .btn_m{
-	height: 4vh;
+	height: 4vh !important;
+	font-size: 100%;
+	display:table-cell;
+	vertical-align:middle;
+	padding: 0 5px;
+	margin-right: 5px;
 }
-.seperator{
+h1{
+	font-size: 15vh;
+	display: block;
+	color: white;
+}
+#image_row{
+	height: 50vh;
+	background-image: url('../image/start_page.jpg');
+	background-position: bottom;
+	background-size: auto;
+	background-repeat: no-repeat;
+}.seperator{
     height: 100%;
     border-left-style: solid;
     border-left-width: 2px;
