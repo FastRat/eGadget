@@ -16,9 +16,10 @@
     <body>
         <div id="warpper" ng-controller="Warpper">
             <div class="container-fluid">
-                <div  ng-include src="view.getView('login_row')" id="login_row" class="row">
-    		
-    		</div>
+                <div  ng-include src="view.getView('login_row')" id="login_row" class="row"></div>
+                <div class="row">
+                    <div id="article_content" class="col-md-10" ng-include src="view.getView('articles_content')"></div>
+                </div>
             </div>
         </div>
     </body>

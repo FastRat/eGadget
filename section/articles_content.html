@@ -1,0 +1,12 @@
+<div class="row" ng-controller="ArticleLoader">
+    <div class="col-md-12"  ng-repeat="article in articles">
+        <article>
+            <h1>
+                <a>{{article.title}}</a>
+            </h1>
+            <span>
+                {{article.content}}
+            </span>
+        </article>
+    </div>
+</div>
