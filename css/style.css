@@ -1,3 +1,13 @@
+/*
+Theme Name: eGadget
+Theme URI: 
+Author: Klaudia Wasilewska & Piotr Kuźnik
+Description: eGadget to motyw napisany specjalnie do konkurs Gażdzety współczesnej młodzieży 
+Version: 1.0
+*/
+
+/*******************************************************************************/
+
 #warpper{
 	font-family: 'McLaren', sans-serif;
 	min-height: 100vh;
@@ -62,38 +72,18 @@
 	margin-left: 15%;
 }
 
-@media (min-width:1095px) {
-    /*HERE PUT YOUR CODE FOR LG */
-    .h1_titleWeb{
-		font-size: 15vh;
-		display: block;
-		color: white;
-	}
+@media (max-width:767px) {
+    /*HERE PUT YOUR CODE FOR XS */
 }
 
-@media (min-width:768px) and (max-width:1095px) {
-    /*HERE PUT YOUR CODE FOR MD */
-    .h1_titleWeb{
-		font-size: 10vh;
-		display: block;
-		color: white;
-	}
+@media (min-width:768px) {
+    /*HERE PUT YOUR CODE FOR SM */
 }
 
-@media (min-width:481px) and (max-width:767px) { 
-    /*HERE PUT YOUR CODE FOR  SM */
-    .h1_titleWeb{
-		font-size: 6vh;
-		display: block;
-		color: white;
-	}
+@media (min-width:992px)  { 
+    /*HERE PUT YOUR CODE FOR  MD */
 }
 
-@media (max-width:481px) { 
-    /*HERE PUT YOUR CODE FOR  XS */
-    .h1_titleWeb{
-		font-size: 4vh;
-		display: block;
-		color: white;
-	}
+@media (min-width:1200px) { 
+    /*HERE PUT YOUR CODE FOR  LG */
 }
