@@ -34,11 +34,6 @@
 	padding: 0 5px;
 	margin-right: 5px;
 }
-h1{
-	font-size: 15vh;
-	display: block;
-	color: white;
-}
 #image_row{
 	height: 50vh;
 	background-image: url('../image/start_page.jpg');
@@ -59,7 +54,7 @@ h1{
 	margin: 0;
 	padding: 0;
 }
-li{
+.li_kategory{
 	list-style: none;
 	margin-bottom: 5px;
 }
@@ -69,16 +64,36 @@ li{
 
 @media (min-width:1095px) {
     /*HERE PUT YOUR CODE FOR LG */
+    .h1_titleWeb{
+		font-size: 15vh;
+		display: block;
+		color: white;
+	}
 }
 
 @media (min-width:768px) and (max-width:1095px) {
     /*HERE PUT YOUR CODE FOR MD */
+    .h1_titleWeb{
+		font-size: 10vh;
+		display: block;
+		color: white;
+	}
 }
 
 @media (min-width:481px) and (max-width:767px) { 
     /*HERE PUT YOUR CODE FOR  SM */
+    .h1_titleWeb{
+		font-size: 6vh;
+		display: block;
+		color: white;
+	}
 }
 
 @media (max-width:481px) { 
     /*HERE PUT YOUR CODE FOR  XS */
+    .h1_titleWeb{
+		font-size: 4vh;
+		display: block;
+		color: white;
+	}
 }
