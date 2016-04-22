@@ -1,11 +1,11 @@
 <div class="row" ng-controller="ArticleLoader">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  ng-repeat="article in articles">
         <div class="row">
-            <div class="col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                <h3>{{article.date}}</h3>
+            <div class="col-xs-offset-1 col-sm-offset-1 col-md-offset-2 col-lg-offset-2 col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                <h3 class="article_date">{{article.date}}</h3>
             </div>
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-                <h2>{{article.title }}</h2>
+            <div class="col-xs-offset-2 col-md-offset-1 col-xs-7 col-sm-4 col-md-8 col-lg-8">
+                <h2 class="article_title">{{article.title }}</h2>
             </div>
         </div>
         <div class="row">
@@ -18,8 +18,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-8 col-sm-8 col-md-8 col-lg-8" >
-                <article>{{article.content | limitTo : 300}}.. <a>Czytaj dalej</a></article>
+            <div class="col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-10 col-sm-11 col-md-10 col-lg-10" >
+                <article class="article_text">{{article.content | limitTo : 300}}.. <a>Czytaj dalej</a></article>
             </div>
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 
