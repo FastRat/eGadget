@@ -53,8 +53,16 @@ h1{
     width: 1px;
     margin-left: 5px;
     margin-right: 5px;
+    border-color: #337ab7;
 }
 .absolute{
 	margin: 0;
 	padding: 0;
+}
+li{
+	list-style: none;
+	margin-bottom: 5px;
+}
+.radio{
+	margin-left: 15%;
 }
