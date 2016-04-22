@@ -58,3 +58,19 @@ h1{
 	margin: 0;
 	padding: 0;
 }
+
+@media (min-width:1095px) {
+    /*HERE PUT YOUR CODE FOR LG */
+}
+
+@media (min-width:768px) and (max-width:1095px) {
+    /*HERE PUT YOUR CODE FOR MD */
+}
+
+@media (min-width:481px) and (max-width:767px) { 
+    /*HERE PUT YOUR CODE FOR  SM */
+}
+
+@media (max-width:481px) { 
+    /*HERE PUT YOUR CODE FOR  XS */
+}
