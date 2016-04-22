@@ -20,6 +20,8 @@
 }
 .left{
 	float: left;
+	padding: 0;
+	margin: 0;
 }
 .right{
 	float: right;
@@ -37,18 +39,22 @@ h1{
 	display: block;
 	color: white;
 }
-
 #image_row{
 	height: 50vh;
 	background-image: url('../image/start_page.jpg');
 	background-position: bottom;
 	background-size: auto;
 	background-repeat: no-repeat;
-}.seperator{
+}
+.seperator{
     height: 100%;
     border-left-style: solid;
     border-left-width: 2px;
     width: 1px;
     margin-left: 5px;
     margin-right: 5px;
+}
+.absolute{
+	margin: 0;
+	padding: 0;
 }
